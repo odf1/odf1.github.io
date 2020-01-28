@@ -51,3 +51,9 @@ a:hover{
 #bigger-cow:hover{
     border:5px dotted white;
 }
+tr{
+    color:white;
+}
+td{
+    color:white;
+}

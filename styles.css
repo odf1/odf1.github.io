@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(140,72,32);
+}
+div{
+    background: rgb(174, 235, 242);
+    padding: 20px;
+    width:90%;
+    margin:auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(64,29,16);
+}
