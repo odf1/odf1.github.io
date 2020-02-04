@@ -1,0 +1,33 @@
+#main-content{
+    padding:10px;
+    justify-content: space-around;
+}
+#top-header{
+    padding:10px;
+    text-align: center;
+}
+.col1of3{
+    padding: 10px;
+    flex-basis: 30%;
+}
+#special1of3{
+    padding:10px;
+    flex-basis: 50%;
+}
+#bottomheader{
+    text-align: center;
+    padding:10px;
+}
+.col1of2{
+    padding:10px;
+    flex-basis: 50%;
+}
+/*no idea how to do this next part :(*/
+
+.col1of4{
+    flex-basis:22%;
+    padding:10px;
+}
+
+
+
