@@ -1,17 +1,61 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(140,72,32);
+    background: black;
 }
-div{
-    background: rgb(174, 235, 242);
+#content{
+    background:coral;
+}
+#content, #assignments,#title, #assignments section, #title section, #assig-col{
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+/*div{
+    background: coral;
     padding: 20px;
     width:90%;
     margin:auto;
+}*/
+h1,h2,h3{
+    text-align: center;
 }
+#title h3{
+    text-align: left;
+}
+#title h1{
+    background:white;
+}
+
+
+
+#assignments section{
+    background:lightblue;
+}
+@media(min-width:900px){
+    #assignments{
+        display:grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fill,minmax(30%,1fr));
+    }
+   
+    #title, #assignments section,#in-class{
+        flex:1;
+        
+
+        
+    }
+    
+}
+
+
+
+
+/*
 li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
     color:rgb(64,29,16);
-}
+}*/

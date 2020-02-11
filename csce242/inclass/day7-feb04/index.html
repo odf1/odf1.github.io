@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+   
+    <title id = "title">Day 7</title>
+   </head>
+   <body>
+        <div id ="content">
+             <button id="btn-boy">Boy</button>
+             <button id="btn-girl">Girl</button>
+          <h1 id="h1-1"></h1>
+             <ul>
+               <li id = "item-1"></li>
+               <li id = "item-2"></li>
+               <li id = "item-3"></li>
+          </ul>
+
+          <img id="sad-face" src="https://cdn4.iconfinder.com/data/icons/faces-10/96/sad-512.png" alt = "sad Face" onclick = "cycle()">
+          <script>
+               var image =  document.getElementById("sad-face");
+   
+               function cycle()
+               {
+                   if (image.getAttribute('src') == "https://cdn4.iconfinder.com/data/icons/faces-10/96/sad-512.png")
+                   {
+                       image.src = "https://blogs.smithsonianmag.com/design/files/2013/03/smiley-face-1.jpg";
+                   }
+                   else if(image.getAttribute('src')=="https://blogs.smithsonianmag.com/design/files/2013/03/smiley-face-1.jpg")
+                   {
+                       image.src = "https://cdn11.bigcommerce.com/s-mcqdekjvq7/images/stencil/1280x1280/products/245426/540868/5040827355_RLLZ_1__79876.1536712630.jpg?c=2?imbypass=on";
+                   }
+                   else if(image.getAttribute('src')=="https://cdn11.bigcommerce.com/s-mcqdekjvq7/images/stencil/1280x1280/products/245426/540868/5040827355_RLLZ_1__79876.1536712630.jpg?c=2?imbypass=on")
+                   {
+                       image.src = "https://cdn11.bigcommerce.com/s-mcqdekjvq7/images/stencil/1280x1280/products/245426/540868/5040827355_RLLZ_1__79876.1536712630.jpg?c=2?imbypass=on";
+                   }
+                  /* else 
+                   {
+                       image.src = "https://images.drawinghub.com/32161_501/how-to-draw-a-hungry-face-easy_5b5d0a82d3eae0.45398893_102973_1_3.png";
+                   }*/
+
+                  /* else if(image.getAttribute('src')=="https://cdn11.bigcommerce.com/s-mcqdekjvq7/images/stencil/1280x1280/products/245426/540868/5040827355_RLLZ_1__79876.1536712630.jpg?c=2?imbypass=on")
+                   {
+                       image.src = "https://cdn.shopify.com/s/files/1/1061/1924/products/Hungry_Face_Emoji_grande.png?v=1571606037";
+                   }*/
+                 
+                   
+               }
+           </script>
+        
+        </div>
+
+        <script src="script.js"></script>
+   </body>
+   </html>
