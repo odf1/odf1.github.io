@@ -7,8 +7,9 @@
 function productMult(){
     var prodCount = document.getElementById('txt-product-count').innerText;
     var prodPrice = document.getElementById('txt-product-price').innerText;
-
-    ans = parseInt(prodCount) * parseInt(prodPrice) * .07;
+    var pretax = prodCount*prodPrice
+    var tax = pretax *.07
+    ans =pretax+tax;
     result = ans;
     alert(prodPrice);
     alert(prodCount);
