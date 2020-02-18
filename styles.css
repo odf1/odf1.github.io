@@ -5,7 +5,7 @@ body{
 #content{
     background:coral;
 }
-#content, #assignments,#title, #assignments section, #title section, #assig-col{
+#content, #assignments,#title, #assignments section, #title section, #assig-col,#inclass{
     padding: 10px;
     margin: 5px;
     
@@ -28,18 +28,24 @@ h1,h2,h3{
 }
 
 
+#inclass section{
+    background: red;
+    padding: 10px;
+    margin: 5px;
+}
 
 #assignments section{
     background:lightblue;
 }
 @media(min-width:900px){
-    #assignments{
+    #assignments, #inclass{
         display:grid;
         flex-wrap: wrap;
         grid-template-columns: repeat(auto-fill,minmax(30%,1fr));
     }
    
-    #title, #assignments section,#in-class{
+   
+    #title, #assignments section,#inclass section{
         flex:1;
         
 
