@@ -52,6 +52,14 @@ function getYoung(age1,age2,age3){
 
     
 }
+function error(age1,age2,age3){
+    if(age1 <= 0 || age2 <=0 || age3 <=0 ){
+        return "Error invalid age"
+    }
+    if(age1 >= 110 || age2 >=110 || age3 >=110 ){
+        return "Error invalid age"
+    
+}
 
 function toggleNav(){
     let navItems = document.getElementById("main-nav-items");
