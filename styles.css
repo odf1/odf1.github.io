@@ -10,6 +10,10 @@ body{
     margin: 5px;
     
 }
+#inclass li{
+    text-decoration: none;
+    list-style-type: none;
+}
 
 /*div{
     background: coral;
@@ -24,12 +28,14 @@ h1,h2,h3{
     text-align: left;
 }
 #title h1{
-    background:white;
+    background:lightblue;
+}
+a{
+    text-decoration: none;
 }
 
-
 #inclass section{
-    background: red;
+    background:lightblue;
     padding: 10px;
     margin: 5px;
 }
