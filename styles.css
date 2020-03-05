@@ -5,9 +5,10 @@ body{
 #content{
     background:coral;
 }
-#content, #assignments,#title, #assignments section, #title section, #assig-col,#inclass{
+#content, #assignments,#title, #assignments section, #title section, #assig-col,#inclass section{
     padding: 10px;
     margin: 5px;
+    border-radius: 25px;
     
 }
 #inclass li{
