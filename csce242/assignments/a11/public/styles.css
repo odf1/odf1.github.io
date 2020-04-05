@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin: 5px;
+    background: lightgrey;
+}
+h1{
+    text-align: center;
+}
+
+#beer-list section{
+    background-color: lightblue;
+    padding:10px;
+    margin: 5px;
+}
+img{
+    height: 400px;
+    width: 250px;
+}
+
+@media(min-width:900px){
+    
+#beer-list{
+    display:flex;
+}
+#beer-list section{
+    flex:1;
+}
+
+    
+}

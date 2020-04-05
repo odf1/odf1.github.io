@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Pilsner urquell",
+        "alcContent":4.4,
+        "taste":"Light",
+        "location":"Plzeň, Czech Republic",
+        "similar":["Rothaus Pils Tannenzäpfle","Notch Brewing At the Swans","Seedstock Czech Pilsner"],
+        "owner":"Pilsner Urquell Brewery"
+    },
+    {
+        "name":"guinness",
+        "alcContent":4.3,
+        "taste":"Heavy",
+        "location":"Dublin Ireland",
+        "similar":["DOGFISH HEAD OAK-AGED VANILLA WORLD WIDE STOUT","DESCHUTES BREWERY BLACK BUTTE PORTER","FOUNDERS NITRO OATMEAL STOUT"],
+        "owner":"guinness"},
+    {
+        "name":"Sierra Nevada IPA",
+        "alcContent":5.6,
+        "taste":"Hoppy",
+        "location":"California",
+        "similar":["SV Torpedo","Daves Pale Ale","Sam Adams IPA"],
+        "owner":"Sierra Nevada Brewing"},
+    {
+        "name":"Ghost in the Machine",
+        "alcContent":8,
+        "taste":"",
+        "location":"Los Angeles",
+        "similar":["Surly Abrasive Ale","Kern River Citra Double IPA","Bell's Hopslam"],
+        "owner":"Parish Brewing"},
+    {
+        "name":"Busch",
+        "alcContent": 4.2,
+        "taste":"Light",
+        "location":"St. Louis",
+        "similar":["KeyStone","Budweiser","Bud Light"],
+        "owner":"Anheuser Busch"},
+    {
+        "name":"420 mango kush IPA",
+        "alcContent":4.2,
+        "taste":"Fruity",
+        "location":"Atlanta",
+        "similar":["SW Blue","SW 420 IPA","SV IPA"],
+        "owner":"Sweat Water Brewery"}
+]
