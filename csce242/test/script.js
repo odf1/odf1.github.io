@@ -9,7 +9,6 @@ async function showInfo(){
 
   for(i in infoJSON){
       let info = infoJSON[i];
-
       infoDiv.append(getShoeItem(info));
       
   }
@@ -21,16 +20,23 @@ function showFilteredData() {
     allPapers[i].classList.remove("hidden");
    //console.log(filteredPapers[i].classList);
   }
-let filter = this.value;
-if(filter == "all") return;
-console.log(filter);
+  let filter = this.value;
+  if(filter == "all") return;
+  console.log(filter);
 //let filteredPapers = document.querySelectorAll(".paper:not(.research)");
-let filteredPapers = document.querySelectorAll(`.paper:not(.${filter}`);
-for(i in filteredPapers){
-  if(filteredPapers[i].classList == null) continue;
-  filteredPapers[i].classList.add("hidden");
+  let filteredPapers = document.querySelectorAll(`.paper:not(.${filter}`);
+  for(i in filteredPapers){
+    if(filteredPapers[i].classList == null) continue;
+    filteredPapers[i].classList.add("hidden");
  //console.log(filteredPapers[i].classList);
-}
+  }
+/*let filter2 = this.value;
+let filteredPapers2 = document.querySelectorAll(`.paper:not(.${filter2}`);
+for(i in filteredPapers2){
+  if(filteredPapers2[i].classList == null) continue;
+  filteredPapers2[i].classList.add("hidden");
+ //console.log(filteredPapers[i].classList);
+}*/
 
 
 console.log(filteredPapers);
@@ -50,6 +56,10 @@ function getShoeItem(info){
   if(info.Population == "School Personnel"){
     infoSection.classList.add("schoolP");
   }
+  if(info.Category == "Early Literacy Skills"){
+    infoSection.classList.add("early-lit");
+  }
+
   let h3Elem = document.createElement("h3");
   h3Elem.innerText = info.Citation;
   infoSection.append(h3Elem);
@@ -143,7 +153,9 @@ function getShoeItem(info){
 window.onload = function(){
   // const btn = document.getElementById("btn");
   const filterSelect = document.getElementById("filter");
+  const filterSelect2 = document.getElementById("filter2");
   filterSelect.onchange = showFilteredData;
+  filterSelect2.onchange = showFilteredData;
   // btn.onclick = showFilteredData;
   this.showInfo();
 }

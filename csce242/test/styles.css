@@ -7,6 +7,7 @@ body {
   background:white;
   padding:10px;
   margin:10px;
+  width:90%;
   border-radius:5px;
   min-height:200px;
 }
@@ -19,7 +20,7 @@ body {
 
 
 #info-section {
-  background-color: lightcoral;
+  background-color: rgba(92, 66, 241, 0.507);
   padding: 10px;
   margin: 5px;
 }
@@ -35,22 +36,36 @@ body {
   padding: 10px;
 
 }
-.research {
-  color:green;
-}
-
 
 .hidden {
   display:none;
 }
+#main-header {
+  background:white;
+  border-radius:5px;
+  
+  
+}
 
 #main-header h1 {
   text-align:center;
-  color:#fff;
+  color:black;
+}
+#logo{
+  width: 10%;
+  border-radius:5px;
+}
+#title div{
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
 }
 
-
-
+select {
+  padding:5px;
+  margin: 5px;
+  display: inline-flex;
+}
 
 /* Nav Bar */
 #main-nav ul {
@@ -85,10 +100,15 @@ body {
       flex-wrap:wrap;
   }
 
-  
+  /*#main-header{
+    display:flex;
+  }
+  #main-header div{
+    flex:1;
+  }*/
 
   .largewidth {
-      width:80%;
+      width:100%;
       margin:auto;
   }
 
