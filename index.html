@@ -2,127 +2,40 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <title>Main Page</title>
+        <script src="script.js"></script>
+        <title>JavaScript Examples</title>
     </head>
     <body>
+        <header id="main-header">
+            <h1>JavaScript Examples</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items">
+                    <li id="testLi">This One</li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Bio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <select id="filter">
+            <option value="all">All Papers</option>
+            <option value="research">Research Papers</option>
+            <option value="article">Meta-Analysis</option>
+            <option value="schoolP">School Personel</option>
+        </select>
         <div id="content">
-            <div id="title">
-                
-                <h3>Owen Fielding</h3>
-                
-                
-                <h1>CSCE 242 Client-Server Computing</h1>
-                
-            </div>
-            <div id="assig-cols">
-                <h2>Assignments</h2>
-            <div id="assignments">
-                <section>
-                    <a href="csce242/assignments/a1/index.html"><h3>Assignment 1</h3></a>
-                    <a href="csce242/assignments/a1/index.html"><img src="images/a1.png"></a>
-                    <p>The first assignment done by our class. This was basic html</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a2/index.html"><h3>Assignment 2</h3></a>
-                    <a href="csce242/assignments/a2/index.html"></a><img src="images/a2.png"></a>
-                    <p>Our second assignment introdused CSS.</p>
-                </section>
-                 <section>
-                    <a href="csce242/assignments/a3/index.html"><h3>Assignment 3</h3></a>
-                    <a href="csce242/assignments/a3/index.html"><img src="images/a3.png"></a>
-                    <p>Our third assignment used more advanced CSS</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a4/index.html"><h3>Assignment 4</h3></a>
-                    <a href="csce242/assignments/a4/index.html"><img src="images/a4.png"></a>
-                    <p>The fourth assigment gave us our first look at javascript.</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a6/index.html"><h3>Assignment 6</h3></a>
-                    <a href="csce242/assignments/a6/index.html"><img src="images/a6.png"></a>
-                    <p>This assignment did more with javascript and we used a gradient bar.</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/website-recreation/index.html"><h3>Assignment 6 Website Recreation</h3></a>
-                    <a href="csce242/assignments/website-recreation/index.html"><img src="images/a6-2.jpg"></a>
-                    <p>This was an assignment to recreate a USC website to hone in our CSS skills.</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a7/index.html"><h3>Assignment 7</h3></a>
-                    <a href="csce242/assignments/a7/index.html"><img src="images/a7.png"></a>
-                    <p>This assignment used CSS variables in javascript to change how a gradient would grow.</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a8/index.html"><h3>Assignment 8</h3></a>
-                    <a href="csce242/assignments/a8/index.html"><img src="images/a7-1.png"></a>
-                    <p>This assignment used CSS variables in javascript with loops</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a9/index.html"><h3>Assignment 9</h3></a>
-                    <a href="csce242/assignments/a9/index.html"><img src="images/a9.png"></a>
-                    <p>This assignment used classes to create mutiple pictures at the same time. We also used code from w3 to have a hover effect on some information.</p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a10/index.html"><h3>Assignment 10</h3></a>
-                    <a href="csce242/assignments/a10/index.html"><img src="images/a10.png"></a>
-                    <p>We used JSON for the first time. </p>
-                </section>
-                <section>
-                    <a href="csce242/assignments/a10-2/index.html"><h3>Brewery</h3></a>
-                    <a href="csce242/assignments/a10-2/index.html"><img src="images/a10-2.jpg"></a>
-                    <p>Create a websites to show a list of breweries!</p>
-                </section>
-
-            </div>
-            <h2>In Class Assignments</h2>
-            <div id="inclass">
-                
-                <section>
-                    <ul>
-                        <li><a href = "csce242/inclass/day1-jan14/index.html">Day 1</a></li>
-                        <li><a href = "csce242/inclass/day2-jan16/index.html">Day 2</a></li>
-                        <li><a href = "csce242/inclass/day3-jan21/index.html">Day 3</a></li>
-                        <li><a href = "csce242/inclass/day4-jan23/index.html">Day 4</a></li>
-                        <li><a href = "csce242/inclass/day5-jan28/index.html">Day 5</a></li>
-                    </ul>
-                </section>
-                    <section>
-                        <ul>
-                            <li><a href = "csce242/inclass/day6-jan28/index.html">Day 6</a></li>
-                            <li><a href = "csce242/inclass/day7-feb08/index.html">Day 7</a></li>
-                            <li><a href = "csce242/inclass/day8-feb06/index.html">Day 8</a></li>
-                            <li><a href = "csce242/inclass/day8-feb11/index.html">Day 9</a></li>
-                            <li><a href = "csce242/inclass/day8-feb13/index.html">Day 10</a></li>
-                            
-
-
-                    </ul>
-                </section>
-                <section>
-                    <ul>
-                        <li><a href = "csce242/inclass/day12-feb27/index.html">Day 12</a></li>
-                        
-                    </ul>
-                </section>
-              
-
-            </div>
-                    </ul>
-                
-            </div>
-            </div>
-
-
-
+            <section class="example largewidth">
+                <h1>Shoes</h1>
+                <div id="info-section">
+                    
+                </div>
+            </section>
         </div>
     </body>
-    
-
-
-  </html>
-  
-  
-  
-  
-  
-  
+</html>
