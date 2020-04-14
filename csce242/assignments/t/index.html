@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Beers</h1>
+        <div id="container">
+        
+        <div id="dessert-forms">
+            <div id="dessert-details" class="beer-form">
+                <h2>Recipe Details</h2>
+                <span id="beer-id" class="hidden"></span>
+                <p>
+                    <label for="txt-name">Name: </label>
+                    <input id="txt-name">
+                </p>
+                <p>
+                    <label for="txt-abv">Abv: </label>
+                    <input id="txt-abv">
+                </p>
+                <p>
+                    <label for="txt-owner">Owner: </label>
+                    <input id="txt-owner">
+                </p>
+                <p>
+                    <label for="txt-link">Link: </label>
+                    <input id="txt-link">
+                </p>
+                <button id="btn-edit-beer">Edit Recipe</button>
+                <button id="btn-delete-beer">Delete Recipe</button>
+            </div>
+
+            <div id="add-beer" class="beer-form">
+                <h2>Add Recipe</h2>
+                <p>
+                    <label for="txt-add-name">Name: </label>
+                    <input id="txt-add-name">
+                </p>
+                <p>
+                    <label for="txt-add-abv">Abv: </label>
+                    <input id="txt-add-abv">
+                </p>
+                <p>
+                    <label for="txt-add-owner">Owner: </label>
+                    <input id="txt-add-owner">
+                </p>
+                <p>
+                    <label for="txt-add-link">Owner: </label>
+                    <input id="txt-add-link">
+                </p>
+                <button id="btn-add-beer">Add Recipe</button>
+            </div>
+        </div>
+        <div id="dessert-list"></div>
+        </div>
+    </body>
+</html>

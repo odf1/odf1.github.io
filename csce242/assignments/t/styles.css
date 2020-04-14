@@ -1,0 +1,60 @@
+body {
+    font-family:arial;
+    background:lightgrey;
+}
+#container{
+    background: salmon;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    text-align: center;
+}
+#dessert-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+label {
+    color: black;
+    font-weight: bold;
+    display: block;
+    width: 10%;
+    float: left;
+    }
+.beer {
+    width:30%;
+    background:grey;
+    padding:5px;
+    margin:5px auto;
+    border-radius: 5px;
+    transition: transform .2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.beer:hover{
+transform: scale(1.2);
+}
+
+.beer a {
+    text-decoration:none;
+    color:black;
+}
+
+.hidden {
+    display:none;
+}
+
+#dessert-forms {
+    display:flex;
+}
+
+.beer-form {
+    background:darkgray;
+    padding:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:50%;
+    margin:5px;
+    border-radius:5px;
+}
+.beer-form h2 {
+ text-align: center;
+}
