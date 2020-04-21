@@ -1,0 +1,49 @@
+body {
+    font-family:arial;
+    background:lightskyblue;
+}
+h1 {
+    text-align: center;
+}
+
+#dessert-list {
+    display:flex;
+    background:grey;
+    flex-wrap: wrap;
+}
+
+
+.recipe {
+    width:80%;
+    background:lightgrey;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:auto;
+    margin-bottom: 5px;
+    transition: all .5s ease-in-out;
+}
+.recipe:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.recipe a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+#dessert-forms {
+    display:flex;
+}
+
+.dessert-form {
+    background:lightgrey;
+    padding:5px;
+    width:45%;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
