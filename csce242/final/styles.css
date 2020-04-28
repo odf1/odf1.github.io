@@ -1,0 +1,90 @@
+body {
+    font-family:arial;
+    background:lightskyblue;
+    background-image: url("https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+h1 {
+    text-align: center;
+}
+
+#beer-list {
+    display:flex;
+    width: 96%;
+    background:transparent;
+    border-radius: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.beer {
+    width:80%;
+    opacity: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    background:lightgrey;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:auto;
+    margin-bottom: 5px;
+    transition: all .2s ease-in-out;
+}
+.beer:hover{
+    background-color: white;
+    transform: scale(1.01);
+}
+
+.beer a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+#beer-forms {
+    display:flex;
+}
+#button{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#title:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+    
+}
+.beer-form {
+    opacity:1;
+    background:lightgrey;
+    padding:5px;
+    width:45%;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+input{ 
+    width: 95%;
+    padding: 5px;
+    margin: 2px;
+}
+input:focus{
+    background-color: lightsalmon;
+}
+@media(min-width:900px){
+
+    body { 
+        background-image: url("https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
+
+}

@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <a href="https://www.google.com/maps/search/beers/"><h1 id="title">Beers</h1></a>
+        
+        <div id="beer-forms">
+            <div id="beer-details" class="beer-form">
+                <h2>Beer Informaiton</h2>
+               <span id="beer-id" class="hidden"></span>
+                <p>
+                    <label for="txt-name" class="center">Name: </label>
+                    <input id="txt-name">
+                </p>
+                <p>
+                    <label for="txt-description" class="center">Description: </label>
+                    <input id="txt-description">
+                </p>
+                <p>
+                    <label for="txt-owner" class="center">Owner: </label>
+                    <input id="txt-owner">
+                </p>
+                <p>
+                    <label for="txt-abv" class="center">Abv: </label>
+                    <input id="txt-abv">
+                </p>
+                <p>
+                    <label for="txt-colors" class="center">Colors: </label>
+                    <input id="txt-colors">
+                </p>
+                <p>
+                    <label for="txt-darkness" class="center">Darkness: </label>
+                    <input id="txt-darkness">
+                </p>
+                <button id="btn-edit-beer" class="button">Edit Beer</button>
+                <button id="btn-delete-beer" class="button">Delete Beer</button>
+            </div>
+
+            <div id="add-beer" class="beer-form">
+                <h2>Add Beer</h2>
+                <p>
+                    <label for="txt-add-name" class="center">Name: </label>
+                    <input id="txt-add-name">
+                </p>
+                <p>
+                    <label for="txt-add-description" class="center">Description: </label>
+                    <input id="txt-add-description">
+                </p>
+                <p>
+                    <label for="txt-add-owner" class="center">Owner: </label>
+                    <input id="txt-add-owner">
+                </p>
+                <p>
+                    <label for="txt-add-abv" class="center">Abv: </label>
+                    <input id="txt-add-abv">
+                </p>
+                <p>
+                    <label for="txt-add-colors" class="center">Colors: </label>
+                    <input id="txt-add-colors">
+                </p>
+                <p>
+                    <label for="txt-add-darkness" class="center">Darkness: </label>
+                    <input id="txt-add-darkness">
+                </p>
+                <button id="btn-add-beer" class="button">Add Beer</button>
+            </div>
+        </div>
+        <div id="beer-list"></div>
+    </body>
+</html>
